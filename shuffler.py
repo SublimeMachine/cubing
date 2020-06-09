@@ -9,14 +9,14 @@ sealed = True
 
 
 cards_in_cube = [
-    ("White", 80),
-    ("Blue", 80),
-    ("Black", 80),
-    ("Red", 80),
-    ("Green", 80),
-    ("Land", 80),
-    ("Gold", 80),
-    ("Colorless", 40),
+    ("White", 50),
+    ("Blue", 50),
+    ("Black", 50),
+    ("Red", 50),
+    ("Green", 50),
+    ("Land", 50),
+    ("Gold", 50),
+    ("Colorless", 25),
 ]
 
 colors, cards = zip(*cards_in_cube)
